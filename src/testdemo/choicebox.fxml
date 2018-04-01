@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testdemo.test">
+    <children>
+        <ChoiceBox fx:id="choiceId" layoutX="16.0" layoutY="52.0" prefWidth="150.0" value="5 minutes">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="2 minutes" />
+                    <String fx:value="5 minutes" />
+                    <String fx:value="15 minutes" />
+                </FXCollections>
+            </items>
+        </ChoiceBox>
+    </children>
+</AnchorPane>
